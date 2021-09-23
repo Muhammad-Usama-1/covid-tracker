@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./../styles/LineGraph.css";
 import { Line } from "react-chartjs-2";
 import numeral from "numeral";
-import { casesTypeColors } from "./Utils";
+
 const options = {
   legend: {
     display: false,
